@@ -58,6 +58,7 @@
       }
 
       .headerInfo {
+         font-family: Arial, Helvetica, sans-serif;
          font-size:4.5px;
          line-height:1.25;
          letter-spacing:0px;
@@ -69,10 +70,19 @@
 
       .headerInfoTitle {
          font-weight: bold;
+         font-family: Arial, Helvetica, sans-serif;
       }
 
       .headerInfoText {
          font-weight: normal;
+      }
+
+      .mainTitle {
+         font-family: Verdana, Helvetica, sans-serif;
+         font-weight:bold;
+         font-size:6px;
+         fill:#f3f5f6;
+         fill-opacity:1;
       }
    </style>
 
@@ -96,15 +106,15 @@
   <rect
        y="7.9022722"
        x="7.395"
-       height="43.744282"
+       height="41.0"
        width="195.28357"
        id="rect3429"
        style="fill:#454b66;fill-opacity:1;stroke:none" />
 
    <rect
-       y="51.645161"
+       y="41.0"
        x="7.8468299"
-       height="237.48848"
+       height="247.48848"
        width="194.37708"
        id="rect3921"
        style="fill:none;fill-opacity:1;stroke:#454b66;stroke-width:0.89791399;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
@@ -114,7 +124,7 @@
    <!-- MAIN CONTENT -->
    <g 
       id="techStackBlock"
-      transform="translate(137.0, 61.6)">
+      transform="translate(137.0, 57.6)">
       
       <text
                y="0.0"
@@ -482,7 +492,7 @@
     
    <g 
       id="educationBlock"
-      transform="translate(13.6, 61.6)">
+      transform="translate(13.6, 57.6)">
       <text
          y="0.0"
          x="0.0"
@@ -520,7 +530,7 @@
 
    <g
       id="employmentBlock"
-      transform="translate(13.6, 89.0)">
+      transform="translate(13.6, 87.0)">
       <text
          id="text1847"
          y="0.0"
@@ -721,8 +731,7 @@
    <text
          y="18.5"
          x="13.5"
-         class="mainText"
-         style="font-weight:bold;font-size:6px;fill:#f3f5f6;fill-opacity:1;"
+         class="mainText mainTitle"
          xml:space="preserve">Alexander Goryunov</text>
 
    <text
@@ -744,69 +753,77 @@
        y="36.1"
        x="13.5"
        class="mainText headerInfo">
-       <tspan x="13.5" dy="1em">&quot;Numquam duas horas operando manu habe </tspan>
-       <tspan x="13.5" dy="1em">quod sex horas automating potes.&quot;</tspan>
-       <tspan x="67.5" dy="1em">- Marcus Aurelius</tspan></text>
-   <text
-         xml:space="preserve"
-         class="mainText headerInfo headerInfoTitle"
-         x="116.5"
-         y="26.0"
-         id="text1672">Mobile:
-   </text>
-   <text
-         xml:space="preserve"
-         class="mainText headerInfo headerInfoTitle"
-         x="116.5"
-         y="31.6"
-         id="text1676">Email:
-   </text>
-   <text
-         xml:space="preserve"
-         class="mainText headerInfo headerInfoTitle"
-         x="116.5"
-         y="37.2"
-         id="text1803">Repo:
-   </text>
-   <text
-         xml:space="preserve"
-         class="mainText headerInfo headerInfoTitle"
-         x="116.5"
-         y="42.8"
-         id="text1817">Blog:
-   </text>
+       <tspan x="13.5" dy="1em" style="font-style:italic">&quot;Numquam duas horas operando manu habe quod sex horas automating potes.&quot;</tspan>
+       <tspan x="145" dy="1em">- Marcus Aurelius</tspan></text>
 
-   <text
-         xml:space="preserve"
-         class="mainText headerInfo headerInfoText"
-         x="135.9"
-         y="26.0"
-         id="text1690">053-571-0490
-   </text>
-   
-  <a href="mailto:alex.goryunov@gmail.com">
+   <g
+      id="infoBlock"
+      transform="translate(116.5, 18.5)">
+
       <text
-         class="mainText headerInfo headerInfoText"
-         x="135.9"
-         y="31.6"
-         id="text1684">alex.goryunov@gmail.com</text>
-   </a>
-   <a href="https://github.com/agoryuno">
-      <text
-         class="mainText headerInfo headerInfoText"
-         x="135.9"
-         y="37.2"
-         id="text1811">https://github.com/agoryuno
+            xml:space="preserve"
+            class="mainText headerInfo headerInfoTitle"
+            x="0.0"
+            y="0.0">Mobile:
       </text>
-   </a>
-   <a href="https://agoryuno.github.io">
       <text
-         class="mainText headerInfo headerInfoText"
-         x="135.9"
-         y="42.8"
-         id="text1821">https://agoryuno.github.io
+            xml:space="preserve"
+            class="mainText headerInfo headerInfoTitle"
+            x="0.0"
+            y="5.0"
+            id="text1676">Email:
       </text>
-   </a>
+      <text
+            xml:space="preserve"
+            class="mainText headerInfo headerInfoTitle"
+            x="0.0"
+            y="10.0"
+            id="text1803">Repo:
+      </text>
+      <text
+            xml:space="preserve"
+            class="mainText headerInfo headerInfoTitle"
+            x="0.0"
+            y="15.0"
+            id="text1817">Blog:
+      </text>
+
+         <g 
+            id="info_data"
+            transform="translate(17, 0)">
+            <text
+                  xml:space="preserve"
+                  class="mainText headerInfo headerInfoText"
+                  x="0.0"
+                  y="0.0"
+                  id="text1690">053-571-0490
+            </text>
+            
+           <a href="mailto:alex.goryunov@gmail.com">
+               <text
+                  class="mainText headerInfo headerInfoText"
+                  x="0.0"
+                  y="5.0"
+                  id="text1684">alex.goryunov@gmail.com</text>
+            </a>
+            <a href="https://github.com/agoryuno">
+               <text
+                  class="mainText headerInfo headerInfoText"
+                  x="0.0"
+                  y="10.0"
+                  id="text1811">https://github.com/agoryuno
+               </text>
+            </a>
+            <a href="https://agoryuno.github.io">
+               <text
+                  class="mainText headerInfo headerInfoText"
+                  x="0.0"
+                  y="15.0"
+                  id="text1821">https://agoryuno.github.io
+               </text>
+            </a>
+      </g>
+   </g>
 
 
     <!-- CV repo stamp -->
