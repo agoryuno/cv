@@ -10,17 +10,23 @@ have any problems converting it to PDF.
 import os
 import argparse
 from xml.etree import ElementTree as et
+from xml.etree import ElementInclude
 
 
 def main(infile, outfile=None):
-    p = et.parse(infile)
+
+    et.register_namespace("", "http://www.w3.org/2000/svg")
+
+    tree = et.parse(infile)
+    root = tree.getroot()
+    ElementInclude.include(root)
 
     if not outfile:
         fname, ext = os.path.splitext(infile)
         outfile = f"{fname}_out{ext}"
     
     with open(outfile, "w") as f:
-        p.write(f, encoding="unicode")
+        tree.write(f, encoding="unicode")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Preprocess XML files for Inkscape.')

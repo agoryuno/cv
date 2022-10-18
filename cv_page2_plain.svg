@@ -6,6 +6,7 @@
     <!ENTITY projectsBlock_y "80" >] >
 
 <svg
+   xmlns:xi="http://www.w3.org/2001/XInclude"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -328,102 +329,7 @@
       everything.
    -->
 
-   <text
-         y="18.5"
-         x="&leftMargin;"
-         class="mainText mainTitle"
-         xml:space="preserve">Alexander Goryunov</text>
-
-   <text
-       id="text2087"
-       y="25.132757"
-       x="&leftMargin;"
-       style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f3f5f6;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
-       xml:space="preserve"><tspan
-         style="font-size:4.23333311px;fill:#f3f5f6;stroke-width:0.26458332;fill-opacity:1;"
-         y="25.132757"
-         x="13.570149"
-         id="tspan2085">Data science, data analysis, econometrics, </tspan><tspan
-         id="tspan2089"
-         style="font-size:4.23333311px;fill:#f3f5f6;stroke-width:0.26458332;fill-opacity:1;"
-         y="30.424423"
-         x="13.570149">causal inference</tspan></text>
-      <text
-       id="text1851"
-       y="36.1"
-       x="&leftMargin;"
-       class="mainText headerInfo">
-       <tspan x="13.5" dy="1em" style="font-style:italic">&quot;Numquam duas horas operando manu habe quod sex horas automating potes.&quot;</tspan>
-       <tspan x="145" dy="1em">- Marcus Aurelius</tspan></text>
-
-   <g
-      id="infoBlock"
-      transform="translate(116.5, 18.5)">
-
-      <text
-            xml:space="preserve"
-            class="mainText headerInfo headerInfoTitle"
-            x="0.0"
-            y="0.0">Mobile:
-      </text>
-      <text
-            xml:space="preserve"
-            class="mainText headerInfo headerInfoTitle"
-            x="0.0"
-            y="5.0"
-            id="text1676">Email:
-      </text>
-      <text
-            xml:space="preserve"
-            class="mainText headerInfo headerInfoTitle"
-            x="0.0"
-            y="10.0"
-            id="text1803">Repo:
-      </text>
-      <text
-            xml:space="preserve"
-            class="mainText headerInfo headerInfoTitle"
-            x="0.0"
-            y="15.0"
-            id="text1817">Blog:
-      </text>
-
-         <g 
-            id="info_data"
-            transform="translate(17, 0)">
-            <text
-                  xml:space="preserve"
-                  class="mainText headerInfo headerInfoText"
-                  x="0.0"
-                  y="0.0"
-                  id="text1690">+972-53-571-0490
-            </text>
-            
-           <a href="mailto:alex.goryunov@gmail.com">
-               <text
-                  class="mainText headerInfo headerInfoText"
-                  x="0.0"
-                  y="5.0"
-                  id="text1684">alex.goryunov@gmail.com</text>
-            </a>
-            <a href="https://github.com/agoryuno">
-               <text
-                  class="mainText headerInfo headerInfoText"
-                  x="0.0"
-                  y="10.0"
-                  id="text1811">https://github.com/agoryuno
-               </text>
-            </a>
-            <a href="https://agoryuno.github.io">
-               <text
-                  class="mainText headerInfo headerInfoText"
-                  x="0.0"
-                  y="15.0"
-                  id="text1821">https://agoryuno.github.io
-               </text>
-            </a>
-      </g>
-   </g>
+  <xi:include href="header.xml" />
 
 
     <!-- CV repo stamp -->
