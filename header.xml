@@ -5,9 +5,33 @@
     <!ENTITY techStackBlock_y "57.6" >
     <!ENTITY employmentBlock_y "87.0" >
     <!ENTITY projectsBlock_y "80" >
-    <!ENTITY headerTop "18.5" > ] >
+    <!ENTITY headerTop "18.5" >
+    <!ENTITY hBoxTop_y "7.9" >
+    <!ENTITY hBox_x "7.4" >
+    <!ENTITY hBox_height "41.0" >
+    <!ENTITY hBox_width "195.3" >
+    <!ENTITY border_height "239.0" >
+    <!ENTITY border_x "7.9" >
+    <!ENTITY border_width "194.3" >
+    <!ENTITY borderBottom_y "48.9" >] >
 
 <g>
+
+  <!-- Graphical outline rectangles -->
+
+  <rect
+       y="&hBoxTop_y;"
+       x="&hBox_x;"
+       height="&hBox_height;"
+       width="&hBox_width;"
+       style="fill:#454b66;fill-opacity:1;stroke:none" />
+
+   <rect
+       y="&borderBottom_y;"
+       x="&border_x;"
+       height="&border_height;"
+       width="&border_width;"
+       style="fill:none;fill-opacity:1;stroke:#454b66;stroke-width:1.0;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 <text
          y="&headerTop;"
          x="&leftMargin;"

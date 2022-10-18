@@ -110,24 +110,6 @@
   </metadata>
   
 
-  <!-- Graphical outline rectangles -->
-
-  <rect
-       y="7.9022722"
-       x="7.395"
-       height="41.0"
-       width="195.28357"
-       id="rect3429"
-       style="fill:#454b66;fill-opacity:1;stroke:none" />
-
-   <rect
-       y="41.0"
-       x="7.8468299"
-       height="247.48848"
-       width="194.37708"
-       id="rect3921"
-       style="fill:none;fill-opacity:1;stroke:#454b66;stroke-width:0.89791399;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-
 
    
    <!-- MAIN CONTENT -->
