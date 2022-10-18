@@ -1,3 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  [ <!ENTITY leftMargin "13.6" > 
+    <!ENTITY techStackBlock_y "57.6" >
+    <!ENTITY employmentBlock_y "87.0" >
+    <!ENTITY projectsBlock_y "80" >
+    <!ENTITY headerTop "18.5" > ] >
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -124,7 +132,7 @@
    <!-- MAIN CONTENT -->
    <g 
       id="techStackBlock"
-      transform="translate(137.0, 57.6)">
+      transform="translate(137.0, &techStackBlock_y;)">
       
       <text
                y="0.0"
@@ -492,7 +500,7 @@
     
    <g 
       id="educationBlock"
-      transform="translate(13.6, 57.6)">
+      transform="translate(&leftMargin;, 57.6)">
       <text
          y="0.0"
          x="0.0"
@@ -530,7 +538,7 @@
 
    <g
       id="employmentBlock"
-      transform="translate(13.6, 87.0)">
+      transform="translate(&leftMargin;, &employmentBlock_y;)">
       <text
          id="text1847"
          y="0.0"
@@ -729,15 +737,15 @@
    -->
 
    <text
-         y="18.5"
-         x="13.5"
+         y="&headerTop;"
+         x="&leftMargin;"
          class="mainText mainTitle"
          xml:space="preserve">Alexander Goryunov</text>
 
    <text
        id="text2087"
        y="25.132757"
-       x="13.570149"
+       x="&leftMargin;"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f3f5f6;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
        xml:space="preserve"><tspan
          style="font-size:4.23333311px;fill:#f3f5f6;stroke-width:0.26458332;fill-opacity:1;"
@@ -751,14 +759,14 @@
       <text
        id="text1851"
        y="36.1"
-       x="13.5"
+       x="&leftMargin;"
        class="mainText headerInfo">
        <tspan x="13.5" dy="1em" style="font-style:italic">&quot;Numquam duas horas operando manu habe quod sex horas automating potes.&quot;</tspan>
        <tspan x="145" dy="1em">- Marcus Aurelius</tspan></text>
 
    <g
       id="infoBlock"
-      transform="translate(116.5, 18.5)">
+      transform="translate(116.5, &headerTop;)">
 
       <text
             xml:space="preserve"
@@ -829,7 +837,7 @@
     <!-- CV repo stamp -->
     <!-- Embedding the image data for Inkscape's 
     PDF exporter -->
-   <g transform="translate(167 260)">
+   <g transform="translate(167, 260)">
    <a href="https://github.com/agoryuno/cv">
    <image 
       x="42"
