@@ -1,0 +1,23 @@
+on: [push, workflow_dispatch]
+
+jobs:
+  compile-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - uses: actions/checkout@v3
+      - name: Testing...  
+        run:  ls -l
+      - name: Installing python...
+        run: sudo apt install python-is-python3
+      - name: Installing Inkscape...
+        run: sudo apt install inkscape
+      - name: Installing pdftk...
+        run: sudo apt install pdftk
+      - name: Building PDF...
+        run: /bin/sh build.sh
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: goryunov_cv_tech.pdf
+          path: goryunov_cv_tech.pdf
