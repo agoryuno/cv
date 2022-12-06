@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3 
-      - run: |
+      - name: Testing...  
+        run: |
         ls -l
       - uses: agoryuno/actions@v3.3
       - uses: actions/upload-artifact@v3
