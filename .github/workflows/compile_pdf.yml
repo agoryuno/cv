@@ -2,12 +2,14 @@ name: "Compile PDF"
 description: "Compiling output PDFs"
 on: [push, workflow_dispatch]
 
-runs:
-  using: 'composite'
+jobs:
+  compile-pdf:
+    runs:
+      using: 'composite'
 
-  steps:
-    - uses: docker://Dockerfile
-    - uses: actions/upload-artifact@v3
-      with:
-        name: cv-pdf
-        path: output/goryunov_cv.pdf
+      steps:
+        - uses: docker://Dockerfile
+        - uses: actions/upload-artifact@v3
+          with:
+            name: cv-pdf
+            path: output/goryunov_cv.pdf
