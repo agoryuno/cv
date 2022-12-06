@@ -19,5 +19,5 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: cv-pdf
+          name: goryunov_cv.pdf
           path: goryunov_cv.pdf
