@@ -5,7 +5,7 @@ jobs:
   compile-pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: docker://Dockerfile
+      - uses: Dockerfile
       - uses: actions/upload-artifact@v3
         with:
           name: cv-pdf
