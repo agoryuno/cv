@@ -1,0 +1,6 @@
+name: 'Compile PDF'
+description: 'Compile and save the resulting PDF'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
