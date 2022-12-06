@@ -7,8 +7,7 @@ runs:
 
   steps:
     - uses: docker://Dockerfile
-    - name: Upload PDF to repo
-        uses: actions/upload-artifact@v3
-        with:
-          name: cv-pdf
-          path: output/goryunov_cv.pdf
+    - uses: actions/upload-artifact@v3
+      with:
+        name: cv-pdf
+        path: output/goryunov_cv.pdf
