@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3 
-      - uses: actions/compile-pdf@v1
+      - uses: agoryuno/actions@compile-pdf
       - uses: actions/upload-artifact@v3
         with:
           name: cv-pdf
