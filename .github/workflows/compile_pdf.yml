@@ -1,6 +1,6 @@
 name: compile-pdf-files
 run-name: Compiling output PDFs
-on: [push]
+on: [push, workflow-dispatch]
 
 runs:
   using: 'docker'
