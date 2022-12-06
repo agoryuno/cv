@@ -3,11 +3,11 @@ description: "Compiling output PDFs"
 on: [push, workflow-dispatch]
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'composite'
 
-steps:
-  - name: Upload PDF to repo
+  steps:
+    - uses: docker://Dockerfile
+    - name: Upload PDF to repo
         uses: actions/upload-artifact@v3
         with:
           name: cv-pdf
