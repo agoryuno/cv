@@ -1,10 +1,14 @@
 name: compile-pdf-files
 run-name: Compiling output PDFs
 on: [push]
-jobs:
-  install-inkscape-cli:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: apt install inkscape
-      - run: sh build.sh
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+steps:
+  - name: Upload PDF to repo
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv-pdf
+          path: output/goryunov_cv.pdf
