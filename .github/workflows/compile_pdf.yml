@@ -4,7 +4,7 @@ jobs:
   compile-pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: agoryuno/cv/compile-pdf@v1
+      - uses: agoryuno/cv@v1
       - uses: actions/upload-artifact@v3
         with:
           name: cv-pdf
