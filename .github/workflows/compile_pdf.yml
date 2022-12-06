@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3 
-        with: agoryuno/cv
+        with: 
+          repository: agoryuno/cv
       - uses: agoryuno/actions@v3.2
       - uses: actions/upload-artifact@v3
         with:
