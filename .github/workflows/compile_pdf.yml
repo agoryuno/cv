@@ -1,4 +1,3 @@
-name: "Compile PDF"
 on: [push, workflow_dispatch]
 
 jobs:
