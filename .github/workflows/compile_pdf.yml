@@ -6,8 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3 
       - name: Testing...  
-        run: |
-        ls -l
+        run:  ls -l
       - uses: agoryuno/actions@v3.3
       - uses: actions/upload-artifact@v3
         with:
