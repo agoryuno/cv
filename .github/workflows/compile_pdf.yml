@@ -9,7 +9,7 @@ jobs:
       - name: Testing...  
         run:  ls -l
       - name: Installing dependencies...
-        run: apt install python-is-python3
+        run: sudo apt install python-is-python3
 
       #- uses: agoryuno/actions@v3.3
       #- uses: actions/upload-artifact@v3
