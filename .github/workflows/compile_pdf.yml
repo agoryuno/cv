@@ -4,11 +4,12 @@ jobs:
   compile-pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3 
       - name: Testing...  
         run:  ls -l
-      - uses: agoryuno/actions@v3.3
-      - uses: actions/upload-artifact@v3
-        with:
-          name: cv-pdf
-          path: output/goryunov_cv.pdf
+      - uses: actions/checkout@v3 
+
+      #- uses: agoryuno/actions@v3.3
+      #- uses: actions/upload-artifact@v3
+      #  with:
+      #    name: cv-pdf
+      #    path: output/goryunov_cv.pdf
