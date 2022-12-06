@@ -1,5 +1,5 @@
-name: compile-pdf-files
-run-name: Compiling output PDFs
+name: "Compile PDF"
+description: "Compiling output PDFs"
 on: [push, workflow-dispatch]
 
 runs:
