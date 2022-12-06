@@ -4,12 +4,10 @@ on: [push, workflow_dispatch]
 
 jobs:
   compile-pdf:
-    runs:
-      using: 'composite'
-
-      steps:
-        - uses: docker://Dockerfile
-        - uses: actions/upload-artifact@v3
-          with:
-            name: cv-pdf
-            path: output/goryunov_cv.pdf
+    runs-on: ubuntu-latest
+    steps:
+      - uses: docker://Dockerfile
+      - uses: actions/upload-artifact@v3
+        with:
+          name: cv-pdf
+          path: output/goryunov_cv.pdf
