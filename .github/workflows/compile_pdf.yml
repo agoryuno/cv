@@ -1,5 +1,4 @@
 name: "Compile PDF"
-description: "Compiling output PDFs"
 on: [push, workflow_dispatch]
 
 jobs:
