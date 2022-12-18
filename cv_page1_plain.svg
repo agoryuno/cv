@@ -796,14 +796,7 @@
          style="font-size:4.23333311px;fill:#f3f5f6;stroke-width:0.26458332;fill-opacity:1;"
          y="30.424423"
          x="13.570149">causal inference</tspan></text>
-      <text
-       id="text1851"
-       y="36.1"
-       x="13.5"
-       class="mainText headerInfo">
-       <tspan x="13.5" dy="1em">&quot;Numquam duas horas operando manu habe </tspan>
-       <tspan x="13.5" dy="1em">quod sex horas automating potes.&quot;</tspan>
-       <tspan x="67.5" dy="1em">- Marcus Aurelius</tspan></text>
+      
    <text
          xml:space="preserve"
          class="mainText headerInfo headerInfoTitle"
@@ -841,14 +834,18 @@
          id="text1690">053-571-0490
    </text>
    
-  <a href="mailto:alex.goryunov@gmail.com">
+  <a 
+   xlink:href="mailto:alex.goryunov@gmail.com"
+   href="mailto:alex.goryunov@gmail.com">
       <text
          class="mainText headerInfo headerInfoText"
          x="135.9"
          y="31.6"
          id="text1684">alex.goryunov@gmail.com</text>
    </a>
-   <a href="https://github.com/agoryuno">
+   <a 
+      xlink:href="https://github.com/agoryuno"
+      href="https://github.com/agoryuno">
       <text
          class="mainText headerInfo headerInfoText"
          x="135.9"
@@ -856,7 +853,9 @@
          id="text1811">https://github.com/agoryuno
       </text>
    </a>
-   <a href="https://agoryuno.github.io">
+   <a 
+      xlink:href="https://agoryuno.github.io"
+      href="https://agoryuno.github.io">
       <text
          class="mainText headerInfo headerInfoText"
          x="135.9"
@@ -870,7 +869,9 @@
     <!-- Embedding the image data for Inkscape's 
     PDF exporter -->
    <g transform="translate(167 260)">
-   <a href="https://github.com/agoryuno/cv">
+   <a 
+      xlink:href="https://github.com/agoryuno/cv"
+      href="https://github.com/agoryuno/cv">
    <image 
       x="42"
       y="2"
@@ -896,7 +897,9 @@ YISkNcz2OEF1X073eS1RtWaaHtfJOJekVQZGiIERct35MLqbPYwQAyPEwAj5BaJ8JANOPviAAAAA
 AElFTkSuQmCC
 "
        /></a>
-   <a href="https://github.com/agoryuno/cv">
+   <a 
+      xlink:href="https://github.com/agoryuno/cv"
+      href="https://github.com/agoryuno/cv">
       <text
          x="-0.5"
          y="-2"
@@ -904,7 +907,9 @@ AElFTkSuQmCC
          style="font-size:8.5px;fill:#454b66;fill-opacity:1;stroke-width:0.26458332"
       >Get the</text>
    </a>
-   <a href="https://github.com/agoryuno/cv">
+   <a 
+      xlink:href="https://github.com/agoryuno/cv"
+      href="https://github.com/agoryuno/cv">
          <text 
             x="1.5"
             class="mainText"
