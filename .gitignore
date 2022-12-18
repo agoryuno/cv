@@ -1,5 +1,6 @@
 # Specify filepatterns you want git to ignore.
 
 *.pdf
+!goryunov_cv.pdf
 *_out.svg
 
