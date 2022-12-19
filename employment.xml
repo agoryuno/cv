@@ -1,0 +1,78 @@
+{% set employmentBlock_y = hBoxBottom_y + hBox_margin_bottom %}
+{% set block_lineHeight = 4.666 %}
+
+  <g 
+    id="employmentBlock"
+    transform="translate({{ margin_left }}, {{ employmentBlock_y }})">
+
+    <text
+       y="0.0"
+       x="0.0"
+       class="text textHeading">
+       Employment history
+     </text>
+
+
+    <g 
+      id="block1"
+      transform="translate(0.0, {{header_margin_bottom}})">
+      <text
+        class="mainText subtitle pre-text">2019-2022: Federal comptroller's office of
+                     Russia, Moscow - <tspan style="font-style:italic">senior data analyst</tspan>
+      </text>
+      <text
+        dy="{{subtitle_margin * 2}}"
+        class="mainText pre-text">    - quantitative evaluation of government policy
+    - evangelizing modern approaches to using data for
+      policy decision making with in-house auditors and 
+      general government
+    - code and audit reports review
+    - overseeing outsourced data engineering projects to
+      ensure quality and proper interfacing with the 
+      in-house data pipeline
+    - assigning junior analysts to projects and supervising
+      their progress
+      </text>
+    </g>
+
+{% set block1_height = 12*block_lineHeight + header_margin_bottom %}
+    <g 
+      id="block2"
+      transform="translate(0.0, {{ header_margin_bottom +  block1_height }})">
+      <text
+        class="mainText subtitle pre-text">2012-2019: Economic research institute, Russia, 
+                   Khabarovsk - <tspan style="font-style:italic">deputy director for science</tspan>
+      </text>
+      <text
+        dy="{{ subtitle_margin*2 }}"
+        class="mainText pre-text">    - overseeing the institute's academic program
+    - overseeing departmental planning and reporting
+    - designing and reading courses on economic theory
+      and data analysis
+    - advising research staff on technical solutions to
+      research problems
+    - designing and implementing a data warehouse to
+      support research activities
+      </text>
+    </g>
+
+{% set block2_height = 10*block_lineHeight + header_margin_bottom %}
+    <g 
+      id="block3"
+      transform="translate(0.0, {{ header_margin_bottom + block1_height + block2_height }})">
+      <text
+        class="mainText subtitle pre-text">2008-2012: Economic research institute, Russia
+                   Khabarovsk - <tspan style="font-style:italic">head of economic theory
+                   department</tspan>
+      </text>
+      <text
+        dy="{{ subtitle_margin*3 }}"
+        class="mainText pre-text">    - conducting research in regional development and 
+      international economics
+    - organizing regular methodological seminars
+    - planning the department's research activities
+    - editing the department's research reports
+      </text>
+    </g>
+</g>
+

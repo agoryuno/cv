@@ -1,9 +1,11 @@
 # cv
 
-The code to generate my CV
+The code to generate my CV.
+
+This uses SVG and Jinja2 templates to compile a finished PDF.
 
 ./build.sh can be used to produce the output PDF locally, assuming that both Inkscape and pdftk are installed.
 
-A better way is to use the provided action that rebuilds the PDF after every push to the repository. There should be an artifact with the zipped PDF on the most recent workflow run.
+A compiled PDF file (**goryunov_cv.pdf**) with the CV is output automatically by a Github Workflow on every 
+push to the repository.
 
-Different branches contain alternative variants of the CV.
