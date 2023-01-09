@@ -2,7 +2,7 @@
 
 The code to generate my CV.
 
-**Download the PDF**: (goryunov_cv.pdf)[https://github.com/agoryuno/cv/raw/tech_variant/goryunov_cv.pdf]
+**Download the PDF**: [goryunov_cv.pdf](https://github.com/agoryuno/cv/raw/tech_variant/goryunov_cv.pdf)
 
 # Description
 
