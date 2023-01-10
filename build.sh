@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 export GITHUB_URL="https://github.com/agoryuno/cv/tree/tech_variant"
 export QR_FILE="qr_code.xml"
 
