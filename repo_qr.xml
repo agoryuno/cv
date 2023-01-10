@@ -1,0 +1,11 @@
+<!-- CV repo stamp -->
+   <g transform="translate(172, 260)">
+   <a 
+      xlink:href="{{ github_url }}"
+      href="{{ github_url }}">
+   <svg width="7mm" height="7mm">
+      {% include 'qr_code.xml' %}
+   </svg></a>
+  
+   </g>
+   <!-- End of CV repo stamp -->

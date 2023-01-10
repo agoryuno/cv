@@ -138,41 +138,7 @@
 {% include 'tech_stack.xml' %}
 {% include 'header.xml' %}
 
+{% include 'repo_qr.xml' %}
 
-<!-- CV repo stamp -->
-    <!-- Embedding the image data for Inkscape's 
-    PDF exporter -->
-   <g transform="translate(167, 260)">
-   <a 
-      xlink:href="https://github.com/agoryuno/cv"
-      href="https://github.com/agoryuno/cv">
-   <image 
-      x="42"
-      y="2"
-      transform="scale(0.15,0.15)"
-      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAABHNCSVQICAgIfAhkiAAAA8JJREFU
-eJzt3ctOMzsQRWEa8f6vHOaVQbFUFztofcNzSLvzs2VKvj6v1+v1Jf3R9+kX0GcxMEIMjJCf+B+e
-51l9gVhCZe13l1zV75u9T3x+9n3p86bF97GHEWJghBgYIW81TLRdM1TbozVBtYaq1iDV77v9+7GH
-EWJghBgYIWkNE9FxgO6apPp5+j705+m4S3dNN/37sYcRYmCEGBghuIaZVv2bTmuI7PnVn6++z23s
-YYQYGCEGRsh1NUy0XbNQ1ed/Wk1jDyPEwAgxMEJwDbO9jen0XFD2vO41u7etj4nsYYQYGCEGRkha
-w5weF+iuGbrX/J5+v+3fjz2MEAMjxMAIeW47H6b7bzxtj+quMS77dbyxhxFiYIQYGCHp+TDT+3K2
-nxdNr7eh7WXtV1W/rz2MEAMjxMAIwXNJ23Mv07rX5Fbb726P7uXO2MMIMTBCDIyQtxpmem4k+/z0
-uErW3u3rU7rXONP3tYcRYmCEGBgh5fUw0+tTbq9JTt81MH1Or3NJKjEwQgyMkLcapnsc5L+tV9l+
-3naNlLGHEWJghBgYIWkNs72+ZXoupnucY/qMvem7CLxrQKMMjBADIyRdD9O9fmW7RqFn/0+/z7Ts
-+1VrTnsYIQZGiIERUh6HiU6f3T891zM9V3Z6HCpjDyPEwAgxMELK9yVNrz85fc80ba97XKo6l1dt
-L7KHEWJghBgYIeUaZnvcpLv9bqfvHui+d9t9SSoxMEIMjBB8Pkxme83s9PqX02f2df97Vv+/PYwQ
-AyPEwAjBdw1s76PJbK/fmZ47mn7frD1rGLUyMEIMjJD282G6nT4Xd7vmyn4+2t77bQ8jxMAIMTBC
-8HqY7X1KmdvOtMue311zbN8JaQ8jxMAIMTBC8F0Dp/can56Lun0v9nRNZw8jxMAIMTBCxmuY7X1B
-0em5pu59SbT97vexhxFiYIQYGCHpmt5o+w7F7r/xp8dVpp8Xda8BtocRYmCEGBgh5Xuru50el+h+
-3m33IVXnluxhhBgYIQZGCB6H6XbbXu2s/ekaie693h5HsocRYmCEGBgh6b6k6TW0tL3tuZbpM/Oo
-7vZoTWMPI8TACDEwQvDe6u59Ltnzq/cuT58DnJm+A5N+3nN6tcrACDEwQsr3JXW7/X6j6b3N9P2q
-n3dfkkYZGCEGRsh1NUzUvUY22j7jrvv5lOMwWmVghBgYIeVzek+brmm2199078PqPq/HHkaIgRFi
-YISkNcz2OEF1X073eS1RtWaaHtfJOJekVQZGiIERct35MLqbPYwQAyPEwAj5BaJ8JANOPviAAAAA
-AElFTkSuQmCC
-"
-       /></a>
-  
-   </g>
-   <!-- End of CV repo stamp -->
 
 </svg>
